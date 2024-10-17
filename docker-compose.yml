@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  fastapi:
+    build: .
+    container_name: fastapi_app
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./databases:/app/databases  # Monter le répertoire databases dans le conteneur
+    environment:
+      - SQLITE_DB_PATH=/app/databases/operations.db  # Chemin vers la base de données
+
