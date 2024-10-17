@@ -46,7 +46,7 @@ Pour accéder à l'API, rendez-vous à l'adresse suivante : `http://localhost:80
 
 ### Endpoints principaux :
 
-**Analyser une expression NPI : ''POST/evalueExpression/.''
+#Analyser une expression NPI : ''POST/evalueExpression/.''
    
    - **Exemple de requête** :
   
@@ -60,7 +60,7 @@ Pour accéder à l'API, rendez-vous à l'adresse suivante : `http://localhost:80
           "result": 14.0
         }
     
-**Télécharger les opérations sous forme de fichier CSV : GET /operations/csv
+# Télécharger les opérations sous forme de fichier CSV : GET /operations/csv
 
     Exemple de requête :
     
@@ -68,7 +68,7 @@ Pour accéder à l'API, rendez-vous à l'adresse suivante : `http://localhost:80
         
     Les opérations enregistrées dans la base de données seront consignées dans ce fichier CSV et accessibles dans le répertoire outputFiles.
     
-**Nottoyer de la base de données : DELETE/clean
+# Nottoyer de la base de données : DELETE/clean
 
     Exemple de requête :
     
