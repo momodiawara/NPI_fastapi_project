@@ -57,7 +57,7 @@ Pour accéder à l'API, rendez-vous à l'adresse suivante : `http://localhost:80
    
    Réponse :
        {
-          "result": 14.0
+          "result": 14
         }
     
 ## Télécharger les opérations sous forme de fichier CSV : GET /operations/csv
@@ -99,12 +99,12 @@ Pour accéder à l'API, rendez-vous à l'adresse suivante : `http://localhost:80
 NB :
 Les opérations prises en charge en notation polonaise inverse dans ce contexte sont : addition (+), soustraction (-), multiplication (*), division (/), modulo (%), et puissance. Voici une brève explication de chacune :
 
-    1) Addition (+) : Ajoute deux nombres. Par exemple, en NPI, 3+43+4 devient 3 4 +.
-    2) Soustraction (-) : Soustrait un nombre du précédent. Par exemple, 5−25−2 devient 5 2 -.
-    3) Multiplication (*) : Multiplie deux nombres. Par exemple, 6×36×3 devient 6 3 *.
-    4) Division (/) : Divise le premier nombre par le second. Par exemple, 8/28/2 devient 8 2 /.
-    5) Modulo (%) : Donne le reste d'une division. Par exemple, 77 devient 7 3 %.
-    6) Puissance (^) : Élève un nombre à la puissance d'un autre. Par exemple, 2323 devient 2 3 ^.
+    1) Addition (+) : Ajoute deux nombres. Par exemple, en NPI, 3+4 devient 3 4 +.
+    2) Soustraction (-) : Soustrait un nombre du précédent. Par exemple, 5−2 devient 5 2 -.
+    3) Multiplication (*) : Multiplie deux nombres. Par exemple, 6×3 devient 6 3 *.
+    4) Division (/) : Divise le premier nombre par le second. Par exemple, 8/28 devient 8 2 /.
+    5) Modulo (%) : Donne le reste d'une division. Par exemple le reste de la division de 7 par 3 devient 7 3 %.
+    6) Puissance (^) : Élève un nombre à la puissance d'un autre. Par exemple, 2**3 devient 2 3 ^.
 
 Vous pouvez tester l'API de plusieurs manières, notamment :
 
